@@ -38,7 +38,7 @@ function rot13(encodedStr) {
 	
   let decodedArr = [];// Your Result goes here
 	for (let index = 0; index < encodedStr.length; index++) {
-		const char = encodedStr[i];
+		const char = encodedStr[index];
 		const charCode = char.charCodeAt();
 
 		if (charCode >= A && charCode <= Z) {
